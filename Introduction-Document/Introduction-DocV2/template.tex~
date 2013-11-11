@@ -1,0 +1,70 @@
+%% This is file `elsarticle-template-1-num.tex',
+%%
+%% Copyright 2009 Elsevier Ltd
+%%
+%% This file is part of the 'Elsarticle Bundle'.
+%% ---------------------------------------------
+%%
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.2 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%%
+%% The list of all files belonging to the 'Elsarticle Bundle' is
+%% given in the file `manifest.txt'.
+%%
+%% Template article for Elsevier's document class `elsarticle'
+%% with numbered style bibliographic references
+%%
+%% $Id: elsarticle-template-1-num.tex 149 2009-10-08 05:01:15Z rishi $
+%% $URL: http://lenova.river-valley.com/svn/elsbst/trunk/elsarticle-template-1-num.tex $
+%%
+
+
+
+\documentclass[preprint,12pt]{elsarticle}
+
+\journal{Journal Name}
+
+\begin{document}
+
+\begin{frontmatter}
+
+
+\title{Providing a Demonstration of a Two Armed Robot}
+
+
+\author{Michael Cromie}
+\author{Edvin Malinovskis}
+\author{Andrew McDonald}
+\author{Fraser Leishman}
+\author{Matthew Paterson}
+
+
+
+\address{University of Glasgow}
+
+\begin{abstract}
+\textit{abstract written at the end and is a condensed overview of whole project}
+\end{abstract}
+
+
+
+\end{frontmatter}
+
+
+%% main text
+\section{The First Section}
+\label{S:1}
+
+The University of Glasgow hosts regular open days, where prospective staff and students come and see what it's like to be a part of the University. During these events, the numerous schools host talks and demonstrations enticing the new personnel into the becoming a part of the University. \\
+The School of Computing Science at the University of Glasgow require a new interesting demonstration for their large two armed robot, CloPeMa, which is to be shown at such open days and other University events. This demonstration will be more tailored towards prospective students and will be used in attempt boost undergraduste enrollment numbers on the Computing Science and Software Engineering degree programmes.\\
+We propose to design and implement a unique new demonstration for the robot, replacing the outdated boring current one. Our demonstration will be exciting and innovative in order to draw the attention of the teenage audience. The demonstration proposition is for the robot to pick up a pen from a table, and do some drawing on a nearby canvas. The secondary requirement is for the robot to use its inbuilt camera to take a photograph of one of the students in the room, which it will then run line detection software on, and be able to draw the outline of that sudent.\\
+The main difficulty with the development of such demonstrations lies within the software that the robot relies upon being very tempromental. In order to implement and run new demonstrations on the robot, it takes a multitude of software all communicating together - which seems to have been the downfall on previous attempts. A further diffuculty with this is that the majority of our team are unfamiliar with this software, as it is not commonly used. This provides a further problem, due o the learning curve of this particular software. \textit{need to expand on why the sftware is so bad here} \\
+To overcome this we propose to familiarise ourselves with the software first through reading various versions of documentation and through writing numerous "hello world" demonstrations before we start the implementation of our main demonstration.\\
+
+
+\end{document}
+
