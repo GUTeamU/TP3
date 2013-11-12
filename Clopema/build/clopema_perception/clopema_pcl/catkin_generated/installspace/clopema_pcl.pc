@@ -1,0 +1,8 @@
+prefix=/home/andrew/TeamProject/Clopema/install
+
+Name: clopema_pcl
+Description: Description of clopema_pcl
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/andrew/TeamProject/Clopema/install/lib 
+Requires: 

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "clopema_calibration")
+set(clopema_calibration_MAINTAINER "Libor Wagner <wagnelib@cmp.felk.cvut.cz>")
+set(clopema_calibration_DEPRECATED "")
+set(clopema_calibration_VERSION "0.0.0")
+set(clopema_calibration_BUILD_DEPENDS "roscpp" "opencv" "image_transport" "cv_bridge")
+set(clopema_calibration_RUN_DEPENDS "rospy" "roscpp" "opencv" "image_transport" "cv_bridge")
+set(clopema_calibration_BUILDTOOL_DEPENDS "catkin")

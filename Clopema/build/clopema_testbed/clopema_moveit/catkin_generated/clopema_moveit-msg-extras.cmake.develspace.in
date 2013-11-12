@@ -1,0 +1,2 @@
+set(clopema_moveit_MESSAGE_FILES "")
+set(clopema_moveit_SERVICE_FILES "/home/andrew/TeamProject/Clopema/src/clopema_testbed/clopema_moveit/srv/ClopemaJointInterpolation.srv;/home/andrew/TeamProject/Clopema/src/clopema_testbed/clopema_moveit/srv/ClopemaLinearInterpolation.srv;/home/andrew/TeamProject/Clopema/src/clopema_testbed/clopema_moveit/srv/ClopemaLinearInterpolationDual.srv;/home/andrew/TeamProject/Clopema/src/clopema_testbed/clopema_moveit/srv/ClopemaGraspIt.srv;/home/andrew/TeamProject/Clopema/src/clopema_testbed/clopema_moveit/srv/ClopemaGraspFromTable.srv")

@@ -1,0 +1,8 @@
+prefix=/home/andrew/TeamProject/Clopema/install
+
+Name: clopema_motoros
+Description: Description of clopema_motoros
+Version: 0.7.2
+Cflags: -I/home/andrew/TeamProject/Clopema/install/include
+Libs: -L/home/andrew/TeamProject/Clopema/install/lib 
+Requires: std_msgs roscpp actionlib trajectory_msgs actionlib_msgs control_msgs sensor_msgs geometry_msgs simple_message urdf message_runtime

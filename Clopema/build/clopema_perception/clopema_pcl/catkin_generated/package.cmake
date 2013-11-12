@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "clopema_pcl")
+set(clopema_pcl_MAINTAINER "Libor Wagner <wagnelib@cmp.felk.cvut.cz>")
+set(clopema_pcl_DEPRECATED "")
+set(clopema_pcl_VERSION "0.0.0")
+set(clopema_pcl_BUILD_DEPENDS "pcl")
+set(clopema_pcl_RUN_DEPENDS )
+set(clopema_pcl_BUILDTOOL_DEPENDS "catkin")

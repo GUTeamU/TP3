@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "clopema_cvut")
+set(clopema_cvut_MAINTAINER "Wagner Libor <wagnelib@cmp.felk.cvut.cz>")
+set(clopema_cvut_DEPRECATED "")
+set(clopema_cvut_VERSION "0.0.0")
+set(clopema_cvut_BUILD_DEPENDS )
+set(clopema_cvut_RUN_DEPENDS )
+set(clopema_cvut_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/andrew/TeamProject/Clopema/install
+
+Name: clopema_launch
+Description: Description of clopema_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/andrew/TeamProject/Clopema/install/lib 
+Requires: 

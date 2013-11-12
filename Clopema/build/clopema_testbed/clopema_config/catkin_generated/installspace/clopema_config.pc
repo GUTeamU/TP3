@@ -1,0 +1,8 @@
+prefix=/home/andrew/TeamProject/Clopema/install
+
+Name: clopema_config
+Description: Description of clopema_config
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/andrew/TeamProject/Clopema/install/lib 
+Requires: 

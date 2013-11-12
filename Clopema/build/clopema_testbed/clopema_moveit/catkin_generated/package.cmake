@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "clopema_moveit")
+set(clopema_moveit_MAINTAINER "Vladimír Petrík <vladko.petrik@gmail.com>")
+set(clopema_moveit_DEPRECATED "")
+set(clopema_moveit_VERSION "0.0.0")
+set(clopema_moveit_BUILD_DEPENDS "moveit_msgs" "moveit_ros_move_group" "moveit_ros_planning" "moveit_ros_planning_interface" "moveit_core" "pcl_ros" "roscpp" "rospy" "tf" "tf_conversions" "message_generation")
+set(clopema_moveit_RUN_DEPENDS "moveit_msgs" "moveit_ros_move_group" "moveit_ros_planning" "moveit_ros_planning_interface" "moveit_core" "pcl_ros" "roscpp" "rospy" "tf" "tf_conversions" "message_runtime")
+set(clopema_moveit_BUILDTOOL_DEPENDS "catkin")

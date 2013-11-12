@@ -1,0 +1,39 @@
+<package>
+  <name>clopema_utilities</name>
+  <version>1.0.0</version>
+  <description>clopema_utilities</description>
+  <maintainer email="wagnelib@cmp.felk.cvut.cz">Libor Wagner</maintainer>
+
+  <license>BSD</license>
+  <author>Libor Wagner</author>
+ 
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslib</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>roslisp</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>python_msg_conversions</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>python_orocos_kdl</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>roslib</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>roslisp</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>python_msg_conversions</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>python_orocos_kdl</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>message_generation</run_depend>
+
+  <export>
+
+  </export>
+</package>

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "clopema_force")
+set(clopema_force_MAINTAINER "jan <jan@todo.todo>")
+set(clopema_force_DEPRECATED "")
+set(clopema_force_VERSION "0.0.0")
+set(clopema_force_BUILD_DEPENDS "rospy" "roscpp" "std_msgs")
+set(clopema_force_RUN_DEPENDS "rospy" "roscpp" "std_msgs")
+set(clopema_force_BUILDTOOL_DEPENDS "catkin")

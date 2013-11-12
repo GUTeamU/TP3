@@ -1,0 +1,8 @@
+prefix=/home/andrew/TeamProject/Clopema/devel
+
+Name: clopema_tutorials_smach
+Description: Description of clopema_tutorials_smach
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/andrew/TeamProject/Clopema/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/andrew/TeamProject/Clopema/devel
+
+Name: calibration_verification
+Description: Description of calibration_verification
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/andrew/TeamProject/Clopema/devel/lib 
+Requires: clopema_measurements clopema_utilities

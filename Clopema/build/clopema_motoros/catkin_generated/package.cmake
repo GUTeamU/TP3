@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "clopema_motoros")
+set(clopema_motoros_MAINTAINER "Libor Wagner <wagnelib@cmp.felk.cvut.cz>")
+set(clopema_motoros_DEPRECATED "")
+set(clopema_motoros_VERSION "0.7.2")
+set(clopema_motoros_BUILD_DEPENDS "std_msgs" "roscpp" "actionlib" "trajectory_msgs" "actionlib_msgs" "control_msgs" "sensor_msgs" "geometry_msgs" "simple_message" "urdf" "message_runtime" "rosconsole" "roscpp_serialization")
+set(clopema_motoros_RUN_DEPENDS "std_msgs" "roscpp" "actionlib" "trajectory_msgs" "actionlib_msgs" "control_msgs" "sensor_msgs" "geometry_msgs" "simple_message" "message_runtime" "urdf")
+set(clopema_motoros_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "clopema_perception")
+set(clopema_perception_MAINTAINER "Libor Wagner <wagnelib@cmp.felk.cvut.cz>")
+set(clopema_perception_DEPRECATED "")
+set(clopema_perception_VERSION "0.0.0")
+set(clopema_perception_BUILD_DEPENDS )
+set(clopema_perception_RUN_DEPENDS )
+set(clopema_perception_BUILDTOOL_DEPENDS "catkin")

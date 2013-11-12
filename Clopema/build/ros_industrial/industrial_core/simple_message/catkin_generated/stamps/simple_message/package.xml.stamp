@@ -1,0 +1,20 @@
+<package>
+    <name>simple_message</name>
+    <version>1.0.0</version>
+    <description>
+        CloPeMa vesrion of ROS-I simple_message
+    </description>
+    <maintainer email="wagnelib@cmp.felk.cvut.cz">Libor Wagner</maintainer>
+
+    <license>BSD</license>
+
+    <author>Shaun Edwards</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>roscpp</build_depend>
+    <run_depend>roscpp</run_depend>
+
+    <export>
+        <cpp lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lsimple_message" cflags="-I${prefix}/include -DROS=1"/>
+    </export>
+</package>

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andrew/TeamProject/Clopema/src/clopema_testbed/clopema_description/src/mechanical_calibration.cpp
+ros/ros.h
+-
+ros/package.h
+-
+urdf/model.h
+-
+urdf_parser/urdf_parser.h
+-
+string
+-
+sstream
+-
+iostream
+-
+fstream
+-
+boost/filesystem.hpp
+-
+kdl/frames.hpp
+-
+urdf_parser.cpp
+/home/andrew/TeamProject/Clopema/src/clopema_testbed/clopema_description/src/urdf_parser.cpp
+
+/home/andrew/TeamProject/Clopema/src/clopema_testbed/clopema_description/src/urdf_parser.cpp
+sstream
+-
+

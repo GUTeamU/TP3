@@ -1,0 +1,8 @@
+prefix=/home/andrew/TeamProject/Clopema/devel
+
+Name: cvut_sandbox
+Description: Description of cvut_sandbox
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/andrew/TeamProject/Clopema/devel/lib 
+Requires: roscpp image_transport cv_bridge clopema_utilities tf image_geometry clopema_moveit toradex

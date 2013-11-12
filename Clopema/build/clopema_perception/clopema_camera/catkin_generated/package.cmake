@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "clopema_camera")
+set(clopema_camera_MAINTAINER "Libor Wagner <wagnelib@cmp.felk.cvut.cz>")
+set(clopema_camera_DEPRECATED "")
+set(clopema_camera_VERSION "0.0.0")
+set(clopema_camera_BUILD_DEPENDS )
+set(clopema_camera_RUN_DEPENDS )
+set(clopema_camera_BUILDTOOL_DEPENDS "catkin")

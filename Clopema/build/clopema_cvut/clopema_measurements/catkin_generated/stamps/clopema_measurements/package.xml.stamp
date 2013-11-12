@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package>
+  <name>clopema_measurements</name>
+  <version>0.0.0</version>
+  <description>
+    The clopema_measurements package.
+  	Contains useful scripts for data measurements using clopema testbed.
+  </description>
+
+  <maintainer email="vladko.petrik@gmail.com">Vladimír Petrík</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>clopema_moveit</build_depend>
+  <build_depend>clopema_moveit_config</build_depend>
+  <build_depend>clopema_smach</build_depend>
+  <build_depend>clopema_motoros</build_depend>
+  <build_depend>pikron_mars</build_depend>
+  <build_depend>clopema_utilities</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>rosbag</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <run_depend>clopema_moveit</run_depend>
+  <run_depend>clopema_moveit_config</run_depend>
+  <run_depend>clopema_smach</run_depend>
+  <run_depend>clopema_motoros</run_depend>
+  <run_depend>clopema_utilities</run_depend>
+  <run_depend>pikron_mars</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>rosbag</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <export></export>
+</package>

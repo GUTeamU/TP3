@@ -1,0 +1,8 @@
+prefix=/home/andrew/TeamProject/Clopema/devel
+
+Name: clopema_depth_proc
+Description: Description of clopema_depth_proc
+Version: 0.0.0
+Cflags: -I/home/andrew/TeamProject/Clopema/src/clopema_perception/clopema_depth_proc/include -I/opt/ros/hydro/include/opencv -I/opt/ros/hydro/include -I/usr/include -I/usr/include/eigen3
+Libs: -L/home/andrew/TeamProject/Clopema/devel/lib -lclopema_depth_proc_nodelets -lclopema_depth_proc -l:/opt/ros/hydro/lib/libopencv_imgproc.so -l:/opt/ros/hydro/lib/libopencv_highgui.so -l:/opt/ros/hydro/lib/libopencv_core.so -l:/usr/lib/libboost_thread-mt.so
+Requires: image_geometry roscpp sensor_msgs

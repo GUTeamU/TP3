@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pikron_mars")
+set(pikron_mars_MAINTAINER "Vladimír Petrík <vladko.petrik@gmail.com>")
+set(pikron_mars_DEPRECATED "")
+set(pikron_mars_VERSION "1.0.0")
+set(pikron_mars_BUILD_DEPENDS "roscpp" "std_msgs" "message_generation")
+set(pikron_mars_RUN_DEPENDS "roscpp" "std_msgs" "message_runtime")
+set(pikron_mars_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/andrew/TeamProject/Clopema/devel
+
+Name: clopema_robot
+Description: Description of clopema_robot
+Version: 0.1.0
+Cflags: -I/home/andrew/TeamProject/Clopema/src/clopema_testbed/clopema_robot/include
+Libs: -L/home/andrew/TeamProject/Clopema/devel/lib -lclopema_robot
+Requires: clopema_moveit clopema_motoros actionlib actionlib_msgs

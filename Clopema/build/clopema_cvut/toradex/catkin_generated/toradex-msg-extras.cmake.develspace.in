@@ -1,0 +1,2 @@
+set(toradex_MESSAGE_FILES "/home/andrew/TeamProject/Clopema/src/clopema_cvut/toradex/msg/ToradexDirection.msg;/home/andrew/TeamProject/Clopema/src/clopema_cvut/toradex/msg/ToradexShutter.msg;/home/andrew/TeamProject/Clopema/src/clopema_cvut/toradex/msg/ToradexState.msg")
+set(toradex_SERVICE_FILES "/home/andrew/TeamProject/Clopema/src/clopema_cvut/toradex/srv/ToradexSetDirection.srv;/home/andrew/TeamProject/Clopema/src/clopema_cvut/toradex/srv/ToradexSetShutter.srv;/home/andrew/TeamProject/Clopema/src/clopema_cvut/toradex/srv/ToradexSetState.srv")
