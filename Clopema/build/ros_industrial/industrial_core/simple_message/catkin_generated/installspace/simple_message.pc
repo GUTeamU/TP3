@@ -1,8 +1,0 @@
-prefix=/home/andrew/TeamProject/Clopema/install
-
-Name: simple_message
-Description: Description of simple_message
-Version: 1.0.0
-Cflags: -I/home/andrew/TeamProject/Clopema/install/include
-Libs: -L/home/andrew/TeamProject/Clopema/install/lib -lsimple_message
-Requires: roscpp

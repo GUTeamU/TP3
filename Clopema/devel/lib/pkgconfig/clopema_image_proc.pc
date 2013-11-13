@@ -1,8 +1,0 @@
-prefix=/home/andrew/TeamProject/Clopema/devel
-
-Name: clopema_image_proc
-Description: Description of clopema_image_proc
-Version: 0.0.0
-Cflags: -I/opt/ros/hydro/include/opencv -I/opt/ros/hydro/include
-Libs: -L/home/andrew/TeamProject/Clopema/devel/lib -l:/opt/ros/hydro/lib/libopencv_imgproc.so -l:/opt/ros/hydro/lib/libopencv_highgui.so -l:/opt/ros/hydro/lib/libopencv_core.so
-Requires: image_geometry roscpp sensor_msgs

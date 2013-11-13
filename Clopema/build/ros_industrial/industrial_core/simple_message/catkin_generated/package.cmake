@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "simple_message")
-set(simple_message_MAINTAINER "Libor Wagner <wagnelib@cmp.felk.cvut.cz>")
-set(simple_message_DEPRECATED "")
-set(simple_message_VERSION "1.0.0")
-set(simple_message_BUILD_DEPENDS "roscpp")
-set(simple_message_RUN_DEPENDS "roscpp")
-set(simple_message_BUILDTOOL_DEPENDS "catkin")

@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "clopema_description")
-set(clopema_description_MAINTAINER "Vladimír Petrík <vladko.petrik@gmail.com>")
-set(clopema_description_DEPRECATED "")
-set(clopema_description_VERSION "0.0.0")
-set(clopema_description_BUILD_DEPENDS "roslib" "urdf" "urdfdom" "orocos_kdl")
-set(clopema_description_RUN_DEPENDS "roslib" "urdf" "urdfdom" "orocos_kdl")
-set(clopema_description_BUILDTOOL_DEPENDS "catkin")

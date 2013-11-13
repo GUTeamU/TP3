@@ -1,8 +1,0 @@
-prefix=/home/andrew/TeamProject/Clopema/devel
-
-Name: clopema_calibration
-Description: Description of clopema_calibration
-Version: 0.0.0
-Cflags: -I/home/andrew/TeamProject/Clopema/src/clopema_testbed/clopema_calibration/dotmatrix
-Libs: -L/home/andrew/TeamProject/Clopema/devel/lib 
-Requires: roscpp image_transport cv_bridge

@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "clopema_tutorials_measurements")
-set(clopema_tutorials_measurements_MAINTAINER "Vladimir Petrik <vladko.petrik@gmail.com>")
-set(clopema_tutorials_measurements_DEPRECATED "")
-set(clopema_tutorials_measurements_VERSION "0.0.0")
-set(clopema_tutorials_measurements_BUILD_DEPENDS "clopema_measurements" "clopema_robot")
-set(clopema_tutorials_measurements_RUN_DEPENDS "clopema_measurements" "clopema_robot")
-set(clopema_tutorials_measurements_BUILDTOOL_DEPENDS "catkin")

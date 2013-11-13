@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "toradex")
-set(toradex_MAINTAINER "Libor Wagner <wagnelib@cmp.felk.cvut.cz>")
-set(toradex_DEPRECATED "")
-set(toradex_VERSION "0.1.0")
-set(toradex_BUILD_DEPENDS "roscpp" "message_generation" "image_transport")
-set(toradex_RUN_DEPENDS "roscpp" "message_runtime" "image_transport")
-set(toradex_BUILDTOOL_DEPENDS "catkin")

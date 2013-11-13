@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "clopema_config")
-set(clopema_config_MAINTAINER "Libor Wagner <wagnelib@fel.cvut.cz>")
-set(clopema_config_DEPRECATED "")
-set(clopema_config_VERSION "0.0.0")
-set(clopema_config_BUILD_DEPENDS "rospy" "roscpp" "std_msgs")
-set(clopema_config_RUN_DEPENDS "rospy" "roscpp" "std_msgs")
-set(clopema_config_BUILDTOOL_DEPENDS "catkin")

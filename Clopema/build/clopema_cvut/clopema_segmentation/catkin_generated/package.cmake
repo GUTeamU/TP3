@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "clopema_segmentation")
-set(clopema_segmentation_MAINTAINER "Tadeas Lejsek <lejsekt@gmail.com>")
-set(clopema_segmentation_DEPRECATED "")
-set(clopema_segmentation_VERSION "0.0.0")
-set(clopema_segmentation_BUILD_DEPENDS "clopema_moveit" "roscpp" "rospy" "tf" "tf_conversions" "image_geometry" "cv_bridge")
-set(clopema_segmentation_RUN_DEPENDS "clopema_moveit" "roscpp" "rospy" "tf" "tf_conversions" "image_geometry" "cv_bridge")
-set(clopema_segmentation_BUILDTOOL_DEPENDS "catkin")

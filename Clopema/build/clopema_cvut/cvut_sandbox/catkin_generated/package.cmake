@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "cvut_sandbox")
-set(cvut_sandbox_MAINTAINER "Libor Wagner <wagnelib@cmp.felk.cvut.cz>")
-set(cvut_sandbox_DEPRECATED "")
-set(cvut_sandbox_VERSION "0.0.0")
-set(cvut_sandbox_BUILD_DEPENDS "tf" "image_transport" "roscpp" "toradex" "cv_bridge" "clopema_utilities" "image_geometry" "clopema_moveit")
-set(cvut_sandbox_RUN_DEPENDS "tf" "image_transport" "roscpp" "toradex" "cv_bridge" "clopema_utilities" "image_geometry" "clopema_moveit")
-set(cvut_sandbox_BUILDTOOL_DEPENDS "catkin")

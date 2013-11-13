@@ -1,8 +1,0 @@
-prefix=/home/andrew/TeamProject/Clopema/devel
-
-Name: clopema_segmentation
-Description: Description of clopema_segmentation
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/andrew/TeamProject/Clopema/devel/lib 
-Requires: 

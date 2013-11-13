@@ -1,8 +1,0 @@
-prefix=/home/andrew/TeamProject/Clopema/install
-
-Name: clopema_robot
-Description: Description of clopema_robot
-Version: 0.1.0
-Cflags: -I/home/andrew/TeamProject/Clopema/install/include
-Libs: -L/home/andrew/TeamProject/Clopema/install/lib -lclopema_robot
-Requires: clopema_moveit clopema_motoros actionlib actionlib_msgs

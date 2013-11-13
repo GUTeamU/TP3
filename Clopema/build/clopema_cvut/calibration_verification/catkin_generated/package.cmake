@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "calibration_verification")
-set(calibration_verification_MAINTAINER "Vladimír Petrík <vladko.petrik@gmail.com>")
-set(calibration_verification_DEPRECATED "")
-set(calibration_verification_VERSION "0.0.0")
-set(calibration_verification_BUILD_DEPENDS "clopema_measurements" "clopema_utilities")
-set(calibration_verification_RUN_DEPENDS "clopema_measurements" "clopema_utilities")
-set(calibration_verification_BUILDTOOL_DEPENDS "catkin")

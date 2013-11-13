@@ -1,8 +1,0 @@
-prefix=/home/andrew/TeamProject/Clopema/install
-
-Name: clopema_kinematics
-Description: Description of clopema_kinematics
-Version: 0.0.0
-Cflags: -I/opt/ros/hydro/include -I/usr/include/eigen3
-Libs: -L/home/andrew/TeamProject/Clopema/install/lib -lorocos-kdl
-Requires: moveit_core pluginlib roscpp tf tf_conversions

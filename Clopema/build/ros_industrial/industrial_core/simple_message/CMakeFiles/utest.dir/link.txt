@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/utest.dir/test/utest.cpp.o  -o /home/andrew/TeamProject/Clopema/devel/lib/simple_message/utest -rdynamic -L/home/andrew/TeamProject/Clopema/build/gtest ../../../gtest/libgtest.so /home/andrew/TeamProject/Clopema/devel/lib/libsimple_message.so -lpthread -Wl,-rpath,/home/andrew/TeamProject/Clopema/build/gtest:/home/andrew/TeamProject/Clopema/devel/lib 

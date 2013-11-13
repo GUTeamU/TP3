@@ -1,8 +1,0 @@
-prefix=/home/andrew/TeamProject/Clopema/install
-
-Name: clopema_moveit_config
-Description: Description of clopema_moveit_config
-Version: 0.2.0
-Cflags: 
-Libs: -L/home/andrew/TeamProject/Clopema/install/lib 
-Requires: 

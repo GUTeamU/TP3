@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "clopema_tutorials_moveit")
-set(clopema_tutorials_moveit_MAINTAINER "Vladimír Petrík <vladko.petrik@gmail.com>")
-set(clopema_tutorials_moveit_DEPRECATED "")
-set(clopema_tutorials_moveit_VERSION "0.0.0")
-set(clopema_tutorials_moveit_BUILD_DEPENDS "clopema_moveit" "roscpp" "rospy" "tf" "tf_conversions")
-set(clopema_tutorials_moveit_RUN_DEPENDS "clopema_moveit" "roscpp" "rospy" "tf" "tf_conversions")
-set(clopema_tutorials_moveit_BUILDTOOL_DEPENDS "catkin")

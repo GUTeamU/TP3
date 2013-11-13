@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "clopema_robot")
-set(clopema_robot_MAINTAINER "Libor Wagner <wagnelib@cmp.felk.cvut.cz>")
-set(clopema_robot_DEPRECATED "")
-set(clopema_robot_VERSION "0.1.0")
-set(clopema_robot_BUILD_DEPENDS "clopema_moveit" "clopema_motoros" "actionlib" "actionlib_msgs")
-set(clopema_robot_RUN_DEPENDS "clopema_moveit" "clopema_motoros" "actionlib" "actionlib_msgs")
-set(clopema_robot_BUILDTOOL_DEPENDS "catkin")

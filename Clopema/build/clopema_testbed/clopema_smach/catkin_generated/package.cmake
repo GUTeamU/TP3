@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "clopema_smach")
-set(clopema_smach_MAINTAINER "Libor Wagner <wagnelib@cmp.fel.cvut.cz>")
-set(clopema_smach_DEPRECATED "")
-set(clopema_smach_VERSION "0.0.0")
-set(clopema_smach_BUILD_DEPENDS "moveit_msgs" "moveit_core" "moveit_ros_move_group" "moveit_ros_planning" "moveit_ros_planning_interface" "orocos_kdl" "rospy" "smach" "smach_ros" "tf" "tf_conversions" "clopema_utilities")
-set(clopema_smach_RUN_DEPENDS "moveit_msgs" "moveit_core" "moveit_ros_move_group" "moveit_ros_planning" "moveit_ros_planning_interface" "orocos_kdl" "rospy" "smach" "smach_ros" "tf" "tf_conversions" "clopema_utilities")
-set(clopema_smach_BUILDTOOL_DEPENDS "catkin")

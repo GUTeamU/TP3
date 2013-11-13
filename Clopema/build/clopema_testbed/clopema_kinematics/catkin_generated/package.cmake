@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "clopema_kinematics")
-set(clopema_kinematics_MAINTAINER "Vladimir Petrik <vladko.petrik@gmail.com>")
-set(clopema_kinematics_DEPRECATED "")
-set(clopema_kinematics_VERSION "0.0.0")
-set(clopema_kinematics_BUILD_DEPENDS "moveit_core" "pluginlib" "roscpp" "tf" "tf_conversions" "orocos_kdl")
-set(clopema_kinematics_RUN_DEPENDS "moveit_core" "pluginlib" "roscpp" "tf" "tf_conversions" "orocos_kdl")
-set(clopema_kinematics_BUILDTOOL_DEPENDS "catkin")

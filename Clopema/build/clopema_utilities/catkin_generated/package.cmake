@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "clopema_utilities")
-set(clopema_utilities_MAINTAINER "Libor Wagner <wagnelib@cmp.felk.cvut.cz>")
-set(clopema_utilities_DEPRECATED "")
-set(clopema_utilities_VERSION "1.0.0")
-set(clopema_utilities_BUILD_DEPENDS "roslib" "roscpp" "std_msgs" "rospy" "tf" "roslisp" "image_transport" "python_msg_conversions" "cv_bridge" "python_orocos_kdl" "geometry_msgs" "message_generation")
-set(clopema_utilities_RUN_DEPENDS "roslib" "roscpp" "std_msgs" "rospy" "tf" "roslisp" "image_transport" "python_msg_conversions" "cv_bridge" "python_orocos_kdl" "geometry_msgs" "message_generation")
-set(clopema_utilities_BUILDTOOL_DEPENDS "catkin")
