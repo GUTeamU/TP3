@@ -1,0 +1,307 @@
+% This example An LaTeX document showing how to use the l3proj class to
+% write your report. Use pdflatex and bibtex to process the file, creating 
+% a PDF file as output (there is no need to use dvips when using pdflatex).
+
+% Modified 
+
+\documentclass{l3proj}
+\usepackage[toc]{glossaries}
+\makeglossaries
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%
+
+%% IMPORTANT
+% the glossary does not display in writelatex.com, but if you download as zip from the projects tab and run the makefile from the repo on github it should be displayed correctly (it won't let me have the makefile on here!)
+
+%%GLOSSARY ENTRIES
+%for help see link http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/glossaries/glossariesbegin.pdf
+
+
+\newglossaryentry{fraser}{name=fraser, description={is a fantastic chap}}
+\newglossaryentry{andy}{name=andy, description={is a fantastic chap}}
+\newglossaryentry{michael}{name=michael, description={is a fantastic chap}}
+\newglossaryentry{edvin}{name=edvin, description={is a fantastic chap}}
+\newglossaryentry{matt}{name=matt, description={is a fanny}}
+\newglossaryentry{europroj}{name=EU-FP7, description={Europen Union Funded project for research and technology}}
+\newacronym{clopema}{CLoPeMa}{Clothes Perception and Manipulation}
+
+
+
+
+\title{TP3 Dissertation}
+\author{Michael Cromie -- 1003492\\
+        Edvin Malinovskis -- 2039411 \\
+        Andrew McDonald -- 1102115  \\
+        Fraser Leishman -- 1102103 \\
+        Matthew Paterson -- 1102374 \\
+        }
+\date{\today}
+\maketitle
+\begin{abstract}
+%
+% these examples are just showing how to cite both books and glossary entries
+% note the bib it \cite and the reference tag defined below, and the glossary is
+% \gls, \glspl, \Gls etc.. for whether you want to pluralise or capatalise the word
+% NB it is different for the entries which are abbreviations
+The abstract goes here test \cite{notes} \gls{fraser} \gls{andy} \gls{michael} \gls{edvin} \gls{matt}
+%
+\end{abstract}
+\educationalconsent
+\tableofcontents
+%==============================================================================
+\chapter{Introduction}
+\label{intro}
+\section{Project Synopsis}
+The school of Computing Science are looking for an exciting demonstration for their 750kg robot to perform. The aim of this project is to design and implement such a demonstration.
+\section{Background}
+The robot belongs to a much larger project, named \gls{clopema}. \gls{clopema} is an \gls{europroj} project, meaning it is funded by the EU as a recognised science and technological research project. This project runs across four universities in Europe those being: University of Glasgow, University of Genoa(Italy), Czech Technical University and the Centre for Research \& Technology Hellas (Greece). 
+The main aims of the \gls{clopema} project is to use the cameras attached to the robot's arms in order to manipulate, perceive and fold a variety of textiles. This is a really fascinating and challenging project from a mechanics point of view, but doesn't provide very stimulating demonstrations.
+\section{Motivation}
+The school of Computing Science own their own 750kg robot as part of another research project and are looking to showcase the robot's dexterity in the form of a demonstration. This demonstration will be shown at various university events including undergraduate open days to appeal to prospective students.
+\section{Aims}
+The aim of this project is to design and implement a sequence of actions for the robot to perform that showcases the ablility of the robot and is not only exciting to watch, but also intelectually stimulating. 
+Our overall goal was to...
+The high level description of the demonstration which we came up with was for the robot to:
+\begin{itemize}
+\item take a photograph of a person in the room from one of it's in-built cameras
+\item pick up a pen from a table in front of it
+\item run line detection software on the image
+\item draw the image on a sheet of paper also on the table
+\end{itemize}
+The remainder of the report will explain each stage of the demonstration further and the difficulties we faced at each stage. The report will also describe our alternative design choices. \textit{ //I don't like that phrase}
+%
+%==============================================================================
+
+\chapter{Design}
+\textit{Here we should talk about our approach to the problem; our first ideas of demos; coming up with the drawing; how it meets the needs of the specification}
+
+\section{Project Planning}
+This section will contain task tables as follows:
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 1 & Set Up\\
+\hline
+Description/Outcome & Set up ubuntu, ROS, clopema stack with simulator and get first hello world programs running on simulator\\
+\hline
+Co-Ordinator & All\\
+\hline
+Duration & Four weeks\\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 2 & Brainstorm\\
+\hline
+Description/Outcome & Come up with an idea for a demonstration for the robot to perform that is within the boundaries of the spec and limitations\\
+\hline
+Co-Ordinator & All \\
+\hline
+Duration & Four weeks\\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 3 & Research\\
+\hline
+Description/Outcome & Research different methods of line detection\\
+\hline
+Co-Ordinator & All\\
+\hline
+Duration & One week\\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 4 & Planning \\
+\hline
+Description/Outcome & Break down large task into sections and allocate team members sections\\
+\hline
+Co-Ordinator & All\\
+\hline
+Duration & One hour\\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 5  & Grasp Pen\\
+\hline
+Description/Outcome & Lower the robot's gripper and pick up a dry wipe marker, ready to draw\\
+\hline
+Co-Ordinator & Edvin Malinovskis\\
+\hline
+Duration & One week\\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 6 & Draw Shapes\\
+\hline
+Description/Outcome & With the pen in the robot's gripper, move the arm at the court height above a sheet of paper in order to draw lines/simple shapes \\
+\hline
+Co-Ordinator & Edvin Malinovskis\\
+\hline
+Duration & Two Weeks\\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 7 & Draw Image  \\
+\hline
+Description/Outcome & Write a script which will make the robot draw a simple line detected image(using the in built line detection libraries)\\
+\hline
+Co-Ordinator & Andrew McDonald\\
+\hline
+Duration & Two weeks\\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 8  & Create Line Detection Script\\
+\hline
+Description/Outcome & Write our own line detection script in matlab to handle more complex images \\
+\hline
+Co-Ordinator & Fraser Leishman/Michael Cromie\\
+\hline
+Duration & One week\\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 9 & Bridge Line Detection and Drawing scripts \\
+\hline
+Description/Outcome & Use pymatbridge to be able to run the line detection matlab script from inside the python drawing script\\
+\hline
+Co-Ordinator & Fraser Leishman\\
+\hline
+Duration & One week\\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 10 & Capture an Image from the Robot's Arm\\
+\hline
+Description/Outcome & Using the xtion attached to the robot's arm, reach to the perspex viewing window and capture an image\\
+\hline
+Co-Ordinator & Matthew Paterson\\
+\hline
+Duration & One week\\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 11 & Capture an Image from a Webcam \\
+\hline
+Description/Outcome & Using a webcam in the viewing room, constantly track faces as they appear in view and capture images of only the faces\\
+\hline
+Co-Ordinator & Matthew Paterson\\
+\hline
+Duration & One week \\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\hline
+Task 12 & Bridge all Scripts\\
+\hline
+Description/Outcome & Link all scripts in order for the robot to run smoothly with no errors \\
+\hline
+Co-Ordinator & Andrew McDonald\\
+\hline
+Duration & One week\\
+\hline
+\end{tabular}\\
+
+\vspace{2mm}
+
+\textit{if anyone can think of any tasks to add them, also please edit the ones I did as they aren't quite accurate.\\ 
+Once we get the tasks and times of tasks sorted, does someone fancy drawing up a Gantt chart?  and a Pert chart btw.\\
+the team had weekly advisor meetings where we discussed progress \\
+insert table of minutes here I want to mention somewhere about it being a flaw to the project to be only able to run code on the actual robot weekly (if we’re lucky) just dunno where to put it...}
+\\
+\section{Constraints}
+
+\begin{tabular}{l p{12cm}}
+\textbf {Speed} & The robot is only able to be run at a fraction of its total overall speed due to safety procedures in the case of an emergency stop.\\
+\textbf {Cost} & The team have not been provided with funding for the project, so any demonstration will have to be within a very small budget.\\
+\textbf {Isolation} & The robot is in a room of its own, and is viewed through perspex. Due to safety reasons nobody is allowed in the same room as the robot while the robot is running.\\
+\textbf {Limited Movement} & The robot can only reach so far and it can't rotate all 360 degrees on its axis, limiting its functionality.\\
+\textbf {Weight restriction} & Despite weighing 750 kg, the robot's grippers are only strong enough to lift a maximum load of 2 kg. \\
+\textbf {Dexterity} & As far as most robot’s go it is very dextrous but it still isn’t quite human.\\
+\end{tabular}
+%==============================================================================
+\chapter{Implementation}
+\textit {not sure I like this for a chapter… It was in the template, but not some of the previous examples so I don’t think it’s necessary} 
+
+%==============================================================================
+\chapter{Evaluation}
+%
+%==============================================================================
+\chapter{Conclusion}
+%
+%==============================================================================
+\section{Acknowledgements}
+\subsection*{Paul Siebert -- Project Supervisor}
+\textit {Paul was fuck all help really, in fact he was pretty shite. He knows piss all about his robot and bullshits his way through all the meetings.} 
+\subsection*{Gerardo Aragon Camarasa -- Research Assistant}
+Gerardo was fantastic help. Being one of the major contributors to the \gls{clopema} project, he is entirely in the know when it comes to the robot. He was very helpful with all issues no matter how small and always had time for us. The project wouldn't be completed without Gerardo.
+\subsection*{Douglas McFarlane -- DCS Support}
+Douglas helped the team gain access to a computer with sudo access running the Ubuntu OS in which we could install ROS and the \gls{clopema} stack in order to work on the project whilst on the university campus, this was a great help to us as it allowed us to collaboratively work on this one machine.
+
+
+%
+%==============================================================================
+% using simplified bibliography
+%see here http://en.wikibooks.org/wiki/LaTeX/Bibliography_Management
+
+\begin{thebibliography}{1}
+\addcontentsline{toc}{chapter}{Bibliography} %% puts bib into contents page
+%% example book. the {} is the reference tag, then author, title and date.
+%% numerous books can be listed here each as its own individual \bibitem 
+\bibitem{notes} John W. Dower {\em Readings compiled for History
+21.479.}  1991.
+
+\end{thebibliography}
+
+\clearpage
+\printglossaries %displays all items in the glossary on its own page (auto adds to contents)
+
+
+
+\end{document}
+
