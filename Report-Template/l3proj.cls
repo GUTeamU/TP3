@@ -35,7 +35,8 @@
 \let\footnotesize\small
 \let\footnoterule\relax
 \let\footnote \thanks
-\includegraphics[trim=0.7cm 0.7cm 0.7cm 0.7cm]{images/CompSci_mono}
+\includegraphics[trim=0.7cm 0.7cm 0.7cm 0.7cm]{CompSci_mono}
+\DeclareGraphicsExtensions{.pdf,.jpg}
   \Large
   \vskip 8em%
   {\LARGE \@title \par}%
@@ -52,6 +53,7 @@
 \end{titlepage}%
 \setcounter{footnote}{0}%
 \global\let\thanks\relax
+
 \global\let\maketitle\relax
 \global\let\@thanks\@empty
 \global\let\@author\@empty
@@ -93,4 +95,3 @@ Name: & \rule{4.0cm}{0.5mm} & Signature: & \rule{4.5cm}{0.5mm} \\
 Name: & \rule{4.0cm}{0.5mm} & Signature: & \rule{4.5cm}{0.5mm} \\
 \end{tabular}
 }
-
